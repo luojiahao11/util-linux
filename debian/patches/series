@@ -25,3 +25,4 @@ upstream-master/fallocate-forbid-posix-with-special-options.patch
 upstream-master/lib-colors-fix-fallback-to-system-directory.patch
 debian/usec-umac-adapt.patch
 uniontech-backward-lsblk.patch
+debian/login-turn-on-utmp-writing.patch

@@ -1,0 +1,12 @@
+Index: util-linux/login-utils/login.c
+===================================================================
+--- util-linux.orig/login-utils/login.c
++++ util-linux/login-utils/login.c
+@@ -1494,6 +1494,7 @@ int main(int argc, char **argv)
+ 	endpwent();
+ 
+ 	log_audit(&cxt, 1);
++	log_utmp(&cxt);
+ 
+ 	chown_tty(&cxt);
+ 

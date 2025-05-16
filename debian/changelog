@@ -1,5 +1,11 @@
 util-linux (2.40.4-3deepin4) unstable; urgency=medium
 
+  * fix var/run/utmp don't be updated after login
+
+ -- jiahao.luo <luojiahao@uniontech.com>  Fri, 16 May 2025 17:14:50 +0800
+
+util-linux (2.40.4-3deepin4) unstable; urgency=medium
+
   * backward old version lsblk for show hotplug flag bug.
 
  -- xinpeng.wang <wangxinpeng@uniontech.com>  Wed, 19 Feb 2025 15:49:13 +0800
